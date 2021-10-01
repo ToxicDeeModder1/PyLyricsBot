@@ -8,9 +8,9 @@
         "Genius",
         "Lyrics"
     ],
-    "repository": "https://github.com/AmineSoukara/PyLyricsBot",
-    "website": "https://telegram.dog/AmineSoukara",
-    "success_url": "https://t.me/DamienSoukara",
+    "repository": "https://github.com/ToxicDeeModder1/PyLyricsBot",
+    "website": "https://github.com/ToxicDeeModder1/PylyricsBot",
+    "success_url": "https://t.me/LyricsNarutoXBot",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org",
@@ -26,7 +26,7 @@
         },
         "GENIUS_API": {
             "description": "Genius Api From Here : https://genius.com/api-clients",
-            "required": true
+            "required": false
         }
     },
     "buildpacks": [
