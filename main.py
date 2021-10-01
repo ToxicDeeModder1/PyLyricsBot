@@ -22,8 +22,8 @@ STARTPIC = "https://i.imgur.com/gv2SzKr.jpg"
 START_BTN = ikb(
     [
         [
-            ("💬 Updates Channel", "t.me/damiensoukara", "url"),
-            ("🗣 Support Group", "t.me/damienhelp", "url"),
+            ("💬 Updates Channel", "t.me/TheBotsWorldChannel", "url"),
+            ("🗣 Developer", "t.me/ToxicDeeModderr", "url"),
         ],
         [
             ("👾 About", "about"),
@@ -33,10 +33,10 @@ START_BTN = ikb(
         [
             (
                 "🔗 Source Code",
-                "https://github.com/AmineSoukara/PyLyricsBot/fork",
+                "https://t.me/ToxicDeeModderr",
                 "url",
             ),
-            ("👨‍💻 Developer", "https://bio.link/aminesoukara", "url"),
+            ("👨‍💻 Developer", "https://t.me/TheBotsWorldChannel", "url"),
         ],
     ]
 )
@@ -89,7 +89,7 @@ async def cdata(c, q):
 
         test = f"""<p align="center"><a href="#"><img src="{r.song_art_image_url}" width="250"></a></p>"""
 
-        final = test + f"{lyrics}\n-\n📜 From : @PyLyricsBot"
+        final = test + f"{lyrics}\n-\n📜 From : @LyricsNarutoXBot"
         song_title = r.title
         song_artist = r.artist.replace("&", "ft")
         name = f"{song_title} {song_artist}"
